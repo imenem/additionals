@@ -4,7 +4,7 @@ function openExternalLink() {
     this.target = '_blank';
     this.rel = 'noopener noreferrer';
   };
-  $('div.attachments a, a.external').each(handleNewWindow);
+  $('a.external').each(handleNewWindow);
 }
 
 /* exported setClipboardJS */
